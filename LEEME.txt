@@ -1,0 +1,39 @@
+WADI — VERSION HTML TRADICIONAL
+
+No requiere Node, npm, instalación ni compilación.
+Puedes abrir index.html con doble clic para ver el sitio.
+
+1. Descomprime wadi-simple.zip.
+2. Crea un repositorio NUEVO y vacío en GitHub.
+3. Elige Add file > Upload files.
+4. Entra a la carpeta wadi-simple y arrastra SU CONTENIDO:
+   index.html, styles.css, script.js, robots.txt, vercel.json,
+   LEEME.txt y la carpeta assets completa.
+5. Pulsa Commit changes.
+
+IMPORTANTE: al abrir el repositorio debes ver index.html directamente.
+No debe quedar dentro de una carpeta wadi-simple ni public.
+No subas el archivo ZIP a GitHub.
+
+VERCEL
+1. Add New > Project > importa ese nuevo repositorio.
+2. Framework Preset: Other.
+3. Root Directory: deja la raíz (./).
+4. No añadas comandos de Build ni Install.
+5. Output Directory: . (un punto), ya indicado en vercel.json.
+6. Deploy.
+
+Usa un proyecto nuevo de Vercel para evitar los ajustes del intento anterior.
+Si reutilizas el proyecto anterior, elimina cualquier referencia a npm run build
+u Output Directory public de sus ajustes y usa los valores de arriba.
+
+Calendly: https://calendly.com/juanes-arango
+WhatsApp: https://wa.me/573113708765
+Ambos están conectados. La disponibilidad de citas se administra en Calendly.
+
+Para editar textos: index.html.
+Para editar colores y tamaños: styles.css.
+Para editar interacciones: script.js.
+Para cambiar Calendly: actualiza sus enlaces en index.html y BOOKING_URL en script.js.
+
+Este paquete conserva el diseño aprobado, navegación móvil y animaciones.
