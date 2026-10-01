@@ -1,39 +1,45 @@
-WADI — VERSION HTML TRADICIONAL
+WADI — SITIO ACTUALIZADO
 
-No requiere Node, npm, instalación ni compilación.
-Puedes abrir index.html con doble clic para ver el sitio.
+Sitio HTML estático. No requiere Node, npm ni compilación.
 
-1. Descomprime wadi-simple.zip.
-2. Crea un repositorio NUEVO y vacío en GitHub.
-3. Elige Add file > Upload files.
-4. Entra a la carpeta wadi-simple y arrastra SU CONTENIDO:
-   index.html, styles.css, script.js, robots.txt, vercel.json,
-   LEEME.txt y la carpeta assets completa.
-5. Pulsa Commit changes.
+CAMBIOS
+- Conserva el hero, imágenes, colores y estructura visual del sitio original.
+- Agrega Executive Workshop y Team Workshop antes del Accelerator.
+- Agrega Workshop → Discovery → Accelerator → Implementation → Advisory.
+- Conserva la metodología de seis pasos como sistema de trabajo.
+- Ajusta el Accelerator hacia rediseño y roadmap de implementación.
+- Aclara la ejecución con WADI, equipo del cliente o partners especializados.
+- Conserva 6 semanas y hasta 2 workflows; la ejecución se acuerda por proyecto.
+- Actualiza navegación, descripción para buscadores y llamado final.
 
-IMPORTANTE: al abrir el repositorio debes ver index.html directamente.
-No debe quedar dentro de una carpeta wadi-simple ni public.
-No subas el archivo ZIP a GitHub.
+VISTA PREVIA
+Abre index.html en tu navegador.
 
-VERCEL
-1. Add New > Project > importa ese nuevo repositorio.
-2. Framework Preset: Other.
-3. Root Directory: deja la raíz (./).
-4. No añadas comandos de Build ni Install.
-5. Output Directory: . (un punto), ya indicado en vercel.json.
-6. Deploy.
+ACTUALIZAR EL SITIO EXISTENTE
+1. Guarda una copia de la versión anterior.
+2. En el repositorio que ya está conectado al proyecto wadiw de Vercel,
+   reemplaza index.html, styles.css, script.js y LEEME.txt por estos archivos.
+3. Conserva assets, robots.txt y vercel.json incluidos en este paquete.
+4. index.html debe estar en la raíz, no dentro de otra carpeta.
+5. Guarda los cambios en la rama que Vercel usa para producción.
+6. Si tienes despliegue automático, Vercel publicará la actualización.
+   Revisa el despliegue en el panel de tu proyecto.
 
-Usa un proyecto nuevo de Vercel para evitar los ajustes del intento anterior.
-Si reutilizas el proyecto anterior, elimina cualquier referencia a npm run build
-u Output Directory public de sus ajustes y usa los valores de arriba.
+Configuración estática: Framework Other, raíz ./, sin comandos de instalación
+ni compilación, Output Directory . (un punto). vercel.json está incluido.
+No necesitas crear otro proyecto de Vercel.
 
+CONTACTO
 Calendly: https://calendly.com/juanes-arango
 WhatsApp: https://wa.me/573113708765
-Ambos están conectados. La disponibilidad de citas se administra en Calendly.
+Explorar workshops abre WhatsApp con un mensaje preparado.
+La disponibilidad de citas se administra en Calendly.
 
-Para editar textos: index.html.
-Para editar colores y tamaños: styles.css.
-Para editar interacciones: script.js.
-Para cambiar Calendly: actualiza sus enlaces en index.html y BOOKING_URL en script.js.
+EDITAR
+Textos: index.html. Diseño: styles.css. Interacciones: script.js.
+Para cambiar Calendly, actualiza los enlaces y BOOKING_URL en script.js.
 
-Este paquete conserva el diseño aprobado, navegación móvil y animaciones.
+VALIDACIÓN
+Revisión visual en escritorio y móvil (390 px), navegación móvil y anclas.
+Se verificaron archivos locales y destinos internos.
+Esta entrega no publica cambios en el sitio de producción.
